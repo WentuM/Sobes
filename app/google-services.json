@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "999901652910",
+    "firebase_url": "https://myproject-92f4a.firebaseio.com",
+    "project_id": "myproject-92f4a",
+    "storage_bucket": "myproject-92f4a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:999901652910:android:ab4e7d03e412246f70ca3f",
+        "android_client_info": {
+          "package_name": "demo.povarnicin.firstapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "999901652910-cfjq9e2tb30fapkgmrafga65pnfrgitv.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "demo.povarnicin.firstapp",
+            "certificate_hash": "a618ec6ae4983a2d3237863e51490ef3e0c02b6d"
+          }
+        },
+        {
+          "client_id": "999901652910-mqt4r0le9rjd7em3ioevjubthko74vc6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCP45x53XTTGDz80y7Kt7I8LydxtxJpyIc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "999901652910-mqt4r0le9rjd7em3ioevjubthko74vc6.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
