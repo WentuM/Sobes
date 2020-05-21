@@ -22,12 +22,10 @@ public class LoginActivity extends AppCompatActivity implements View.OnClickList
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        try {
-            setContentView(R.layout.activity_login);
-        }
-        catch (Exception e) {
-            System.out.println(e);
-        }
+        setContentView(R.layout.activity_login);
+        bLogin = findViewById(R.id.bLogin);
+        etEmail = findViewById(R.id.etEmail);
+        etPassword = findViewById(R.id.etPassword);
         SharedPrefWrapper sharedPrefWrapper = new SharedPrefWrapper(this);
         int id = sharedPrefWrapper.getId();
         if (sharedPrefWrapper.checkIfUserLoggedIn() && id != -1) {
